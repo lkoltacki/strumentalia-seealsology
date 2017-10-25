@@ -30,6 +30,14 @@ angular.module('wikiDiverApp')
               'Fichier:'
             ]
           },
+          pl: {
+            name: 'polish',
+            seeAlso: ['Zobacz też', 'Linki zewnętrzne'],
+            stopWords: [
+              'kategorie',
+              'portal',
+            ]
+          },
           it: {
             name: 'italian',
             seeAlso: ['Voci correlate', 'Vedi anche'],
